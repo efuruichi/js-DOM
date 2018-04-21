@@ -5,6 +5,7 @@
 Find the div with the id of "name1" and replace the n/a with the following:
 
 Tay-Tay*/
+
 var nameElem = document.getElementById("name1");
 nameElem.innerHTML = "Tay-Tay";
 
@@ -29,7 +30,8 @@ Find the div with the id of "alias3" and replace the n/a with the following:
 
 Concatenation*/
 
-
+var aliasElem = document.getElementById("alias3");
+aliasElem.innerHTML = "Concatenation";
 
 
 /*4. Prince
