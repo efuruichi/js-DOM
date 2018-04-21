@@ -6,7 +6,7 @@ Find the div with the id of "name1" and replace the n/a with the following:
 
 Tay-Tay*/
 var nameElem = document.getElementById("name1");
-nameElem.innerHTML="Tay-Tay";
+nameElem.innerHTML = "Tay-Tay";
 
 //document.getElementById("main");
 //document.getElementsByClassName("row")[0];
@@ -20,6 +20,8 @@ Find the div with the id of "position2" and replace the n/a with the following:
 
 Project Manager*/
 
+var positionElem = document.getElementById("position2");
+positionElem.innerHTML = "Project Manager";
 
 /*3. Piko Taro
 
