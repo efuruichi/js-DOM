@@ -5,6 +5,13 @@
 Find the div with the id of "name1" and replace the n/a with the following:
 
 Tay-Tay*/
+var nameElem = document.getElementById("name1");
+nameElem.innerHTML="Tay-Tay";
+
+//document.getElementById("main");
+//document.getElementsByClassName("row")[0];
+//document.getElementsByClassName("block1 col-sm-4")[0].appendChild(nameElem);
+
 
 
 /*2. DJ Khaled
