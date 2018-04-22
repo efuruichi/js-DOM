@@ -65,10 +65,10 @@ Create a div element and give it an id of "name7". Inside this div element, give
 
 Append this div element to the nameParent div*/
 
-var divElem = document.createElement("div");
-divElem.id = "name7";
-divElem.innerHTML = "Peter Griffin";
-document.getElementById("nameParent").appendChild(divElem);
+var divElem1 = document.createElement("div");
+divElem1.id = "name7";
+divElem1.innerHTML = "Peter Griffin";
+document.getElementById("nameParent").appendChild(divElem1);
  
 /*8. Tim Duncan
 
@@ -76,7 +76,10 @@ Create a div element give it an id of "alias8". Inside this div element, give it
 
 Append this div element to the aliasParent div.*/
 
-
+var divElem2 = document.createElement("div");
+divElem2.id = "alias8";
+divElem2.innerHTML = "Old Man Riverwalk";
+document.getElementById("aliasParent").appendChild(divElem2);
 
 //Final Boss
 /*9. Create your own profile.*/
