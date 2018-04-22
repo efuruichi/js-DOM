@@ -42,13 +42,13 @@ var profElem4 = document.getElementsByClassName("profile")[0];
 profElem4.innerHTML = "You're just a sinner I am told / Be your fire when you're cold / Make you happy when you're sad / Make you good when you are bad";
 document.getElementsByClassName("block1 col-sm-4")[1].appendChild(profElem4);
 
-
-
 /*5. Bruce Lee
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
-
+var profElem5 = document.getElementsByClassName("profile")[1];
+profElem5.innerHTML = '"I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times."';
+document.getElementsByClassName("block2 col-sm-4")[1].appendChild(profElem5);
 
 /*6. Samuel L Jackson
 
