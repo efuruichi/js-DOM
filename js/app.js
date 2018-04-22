@@ -54,6 +54,9 @@ document.getElementsByClassName("block2 col-sm-4")[1].appendChild(profElem5);
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
+var aliasElem2 = document.getElementsByClassName("alias")[2];
+aliasElem2.innerHTML = "Jules Winnfield";
+document.getElementsByClassName("block3 col-sm-4")[1].appendChild(aliasElem2);
 
 
 /*7. Peter Griffin
@@ -62,7 +65,10 @@ Create a div element and give it an id of "name7". Inside this div element, give
 
 Append this div element to the nameParent div*/
 
-
+var divElem = document.createElement("div");
+divElem.id = "name7";
+divElem.innerHTML = "Peter Griffin";
+document.getElementById("nameParent").appendChild(divElem);
  
 /*8. Tim Duncan
 
