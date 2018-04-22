@@ -84,3 +84,26 @@ document.getElementById("aliasParent").appendChild(divElem2);
 //Final Boss
 /*9. Create your own profile.*/
 
+var imgElem = document.getElementsByTagName("img")[8];
+imgElem.src = "http://img.photobucket.com/albums/v237/erinemi/smores.jpg";
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(imgElem);
+
+var divElem3 = document.createElement("div");
+divElem3.id = "name9";
+divElem3.innerHTML = "S'mores The Cat";
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(divElem3);
+
+var divElem4 = document.createElement("div");
+divElem4.id = "position9";
+divElem4.innerHTML = "Quality Assurance";
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(divElem4);
+
+var divElem5 = document.createElement("div");
+divElem5.id = "alias9";
+divElem5.innerHTML = "King Cat";
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(divElem5);
+
+var divElem6 = document.createElement("div");
+divElem6.id = "bio9";
+divElem6.innerHTML = '"Mrrrroooowl."';
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(divElem6);
